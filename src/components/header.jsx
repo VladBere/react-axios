@@ -2,8 +2,6 @@ import React from 'react'
 import axios from 'axios'
 export const Header = () => {
 
-    axios.get("https://api.escuelajs.co/api/v1/products").then(res => console.log(res))
-
   return (
       <div className="w-full bg-dark-blue text-gray">
         <header className="flex justify-between mx-[120px] pt-5 flex-wrap">
